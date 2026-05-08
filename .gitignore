@@ -1,0 +1,29 @@
+# --- Permintaan Khusus User ---
+*.txt
+*.md
+/task
+.claude/
+# --- .NET Spesifik (Wajib) ---
+**/bin/
+**/obj/
+[Log]
+[log]
+TestResults/
+
+# --- Visual Studio Code ---
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# --- OS Spesifik (Linux/Mac/Windows) ---
+.DS_Store
+thumbs.db
+desktop.ini
+
+# --- User-specific files ---
+*.user
+*.userosscache
+*.sln.docstates
